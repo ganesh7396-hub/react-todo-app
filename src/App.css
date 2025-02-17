@@ -1,0 +1,100 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8758ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.save-dev {
+  background: #1a1a40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.input-task {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.btn-add {
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.task-list {
+  background-color: #8758ff;
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.55rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  /* text-align: center; */
+  margin-bottom: 10px;
+}
+
+.tasklist {
+  display: flex;
+  justify-content: space-between; /* Ensures buttons are aligned at the edge */
+  align-items: center;
+  gap: 20px; /* Space between task text and buttons */
+}
+
+.task-text {
+  width: 300px; /* Set width of task text */
+  white-space: normal; /* Allow text to wrap */
+  overflow-wrap: break-word; /* Break long words if needed */
+  word-wrap: break-word; /* Older support for word wrapping */
+}
+
+.tasklist .buttons {
+  display: flex;
+  gap: 10px; /* Adds space between buttons */
+  width: 70px; /* Ensures buttons stay in a fixed size */
+  justify-content: space-between; /* Align buttons evenly in the 70px space */
+}
+
+.tasklist,
+li {
+  list-style: none;
+  border: #1a1a40;
+}
+
+.input-task-edit {
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.btn-add-edit {
+  background: #8758ff;
+  color: #fff;
+  padding: 0.55rem;
+  cursor: pointer;
+}
